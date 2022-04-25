@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 90%;
+    margin: 0 auto;
+    background-image: url("test.jpg");
+    backgroun-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+
+img  {
+    float: right;
+    width: 500px;
+    height: 300px;
+}
+
+q {
+    font-style: italic;
+}
+
+.neighbours {
+    color: crimson;
+}
+
+.farmer {
+    color: mediumblue;
+}
+
+
+.story > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    color: #263a59;
+}
+
+.good {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
+
+h1 {
+    background-color: yellow;
+}
+
+.bladsalaad {
+    font-weight: bolder;
+}
+
+table {
+    width: 500px;
+}
